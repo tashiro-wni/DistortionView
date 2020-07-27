@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9240AC924CEBBEB004A1BF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240AC824CEBBEB004A1BF7 /* AppDelegate.swift */; };
+		F9240ACB24CEBBEB004A1BF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240ACA24CEBBEB004A1BF7 /* SceneDelegate.swift */; };
+		F9240ACD24CEBBEB004A1BF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240ACC24CEBBEB004A1BF7 /* ViewController.swift */; };
+		F9240AD024CEBBEB004A1BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9240ACE24CEBBEB004A1BF7 /* Main.storyboard */; };
+		F9240AD224CEBBEE004A1BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9240AD124CEBBEE004A1BF7 /* Assets.xcassets */; };
+		F9240AD524CEBBEE004A1BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9240AD324CEBBEE004A1BF7 /* LaunchScreen.storyboard */; };
+		F9240AE024CEBBEF004A1BF7 /* DistortionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240ADF24CEBBEF004A1BF7 /* DistortionViewTests.swift */; };
+		F9240AED24CEBC29004A1BF7 /* WNDistortionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9240AEB24CEBC28004A1BF7 /* WNDistortionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9240ADC24CEBBEE004A1BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9240ABD24CEBBEA004A1BF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9240AC424CEBBEB004A1BF7;
+			remoteInfo = DistortionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9240AC524CEBBEB004A1BF7 /* DistortionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistortionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9240AC824CEBBEB004A1BF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9240ACA24CEBBEB004A1BF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9240ACC24CEBBEB004A1BF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9240ACF24CEBBEB004A1BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9240AD124CEBBEE004A1BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9240AD424CEBBEE004A1BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9240AD624CEBBEE004A1BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9240ADB24CEBBEE004A1BF7 /* DistortionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistortionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9240ADF24CEBBEF004A1BF7 /* DistortionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistortionViewTests.swift; sourceTree = "<group>"; };
+		F9240AE124CEBBEF004A1BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9240AEA24CEBC27004A1BF7 /* DistortionView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DistortionView-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9240AEB24CEBC28004A1BF7 /* WNDistortionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDistortionView.m; sourceTree = "<group>"; };
+		F9240AEC24CEBC29004A1BF7 /* WNDistortionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDistortionView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9240AC224CEBBEB004A1BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9240AD824CEBBEE004A1BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9240ABC24CEBBEA004A1BF7 = {
+			isa = PBXGroup;
+			children = (
+				F9240AC724CEBBEB004A1BF7 /* DistortionView */,
+				F9240ADE24CEBBEF004A1BF7 /* DistortionViewTests */,
+				F9240AC624CEBBEB004A1BF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9240AC624CEBBEB004A1BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9240AC524CEBBEB004A1BF7 /* DistortionView.app */,
+				F9240ADB24CEBBEE004A1BF7 /* DistortionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9240AC724CEBBEB004A1BF7 /* DistortionView */ = {
+			isa = PBXGroup;
+			children = (
+				F9240AC824CEBBEB004A1BF7 /* AppDelegate.swift */,
+				F9240ACA24CEBBEB004A1BF7 /* SceneDelegate.swift */,
+				F9240ACC24CEBBEB004A1BF7 /* ViewController.swift */,
+				F9240AEC24CEBC29004A1BF7 /* WNDistortionView.h */,
+				F9240AEB24CEBC28004A1BF7 /* WNDistortionView.m */,
+				F9240ACE24CEBBEB004A1BF7 /* Main.storyboard */,
+				F9240AD124CEBBEE004A1BF7 /* Assets.xcassets */,
+				F9240AD324CEBBEE004A1BF7 /* LaunchScreen.storyboard */,
+				F9240AD624CEBBEE004A1BF7 /* Info.plist */,
+				F9240AEA24CEBC27004A1BF7 /* DistortionView-Bridging-Header.h */,
+			);
+			path = DistortionView;
+			sourceTree = "<group>";
+		};
+		F9240ADE24CEBBEF004A1BF7 /* DistortionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9240ADF24CEBBEF004A1BF7 /* DistortionViewTests.swift */,
+				F9240AE124CEBBEF004A1BF7 /* Info.plist */,
+			);
+			path = DistortionViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9240AC424CEBBEB004A1BF7 /* DistortionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9240AE424CEBBEF004A1BF7 /* Build configuration list for PBXNativeTarget "DistortionView" */;
+			buildPhases = (
+				F9240AC124CEBBEB004A1BF7 /* Sources */,
+				F9240AC224CEBBEB004A1BF7 /* Frameworks */,
+				F9240AC324CEBBEB004A1BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistortionView;
+			productName = DistortionView;
+			productReference = F9240AC524CEBBEB004A1BF7 /* DistortionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9240ADA24CEBBEE004A1BF7 /* DistortionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9240AE724CEBBEF004A1BF7 /* Build configuration list for PBXNativeTarget "DistortionViewTests" */;
+			buildPhases = (
+				F9240AD724CEBBEE004A1BF7 /* Sources */,
+				F9240AD824CEBBEE004A1BF7 /* Frameworks */,
+				F9240AD924CEBBEE004A1BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9240ADD24CEBBEE004A1BF7 /* PBXTargetDependency */,
+			);
+			name = DistortionViewTests;
+			productName = DistortionViewTests;
+			productReference = F9240ADB24CEBBEE004A1BF7 /* DistortionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9240ABD24CEBBEA004A1BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = weathernews;
+				TargetAttributes = {
+					F9240AC424CEBBEB004A1BF7 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+					F9240ADA24CEBBEE004A1BF7 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F9240AC424CEBBEB004A1BF7;
+					};
+				};
+			};
+			buildConfigurationList = F9240AC024CEBBEA004A1BF7 /* Build configuration list for PBXProject "DistortionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9240ABC24CEBBEA004A1BF7;
+			productRefGroup = F9240AC624CEBBEB004A1BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9240AC424CEBBEB004A1BF7 /* DistortionView */,
+				F9240ADA24CEBBEE004A1BF7 /* DistortionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9240AC324CEBBEB004A1BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9240AD524CEBBEE004A1BF7 /* LaunchScreen.storyboard in Resources */,
+				F9240AD224CEBBEE004A1BF7 /* Assets.xcassets in Resources */,
+				F9240AD024CEBBEB004A1BF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9240AD924CEBBEE004A1BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9240AC124CEBBEB004A1BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9240AED24CEBC29004A1BF7 /* WNDistortionView.m in Sources */,
+				F9240ACD24CEBBEB004A1BF7 /* ViewController.swift in Sources */,
+				F9240AC924CEBBEB004A1BF7 /* AppDelegate.swift in Sources */,
+				F9240ACB24CEBBEB004A1BF7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9240AD724CEBBEE004A1BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9240AE024CEBBEF004A1BF7 /* DistortionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9240ADD24CEBBEE004A1BF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9240AC424CEBBEB004A1BF7 /* DistortionView */;
+			targetProxy = F9240ADC24CEBBEE004A1BF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9240ACE24CEBBEB004A1BF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9240ACF24CEBBEB004A1BF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9240AD324CEBBEE004A1BF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9240AD424CEBBEE004A1BF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9240AE224CEBBEF004A1BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9240AE324CEBBEF004A1BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9240AE524CEBBEF004A1BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97JN7SJ3KH;
+				INFOPLIST_FILE = DistortionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weathernews.DistortionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DistortionView/DistortionView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9240AE624CEBBEF004A1BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97JN7SJ3KH;
+				INFOPLIST_FILE = DistortionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weathernews.DistortionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DistortionView/DistortionView-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9240AE824CEBBEF004A1BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97JN7SJ3KH;
+				INFOPLIST_FILE = DistortionViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weathernews.DistortionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistortionView.app/DistortionView";
+			};
+			name = Debug;
+		};
+		F9240AE924CEBBEF004A1BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97JN7SJ3KH;
+				INFOPLIST_FILE = DistortionViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weathernews.DistortionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistortionView.app/DistortionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9240AC024CEBBEA004A1BF7 /* Build configuration list for PBXProject "DistortionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9240AE224CEBBEF004A1BF7 /* Debug */,
+				F9240AE324CEBBEF004A1BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9240AE424CEBBEF004A1BF7 /* Build configuration list for PBXNativeTarget "DistortionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9240AE524CEBBEF004A1BF7 /* Debug */,
+				F9240AE624CEBBEF004A1BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9240AE724CEBBEF004A1BF7 /* Build configuration list for PBXNativeTarget "DistortionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9240AE824CEBBEF004A1BF7 /* Debug */,
+				F9240AE924CEBBEF004A1BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9240ABD24CEBBEA004A1BF7 /* Project object */;
+}
